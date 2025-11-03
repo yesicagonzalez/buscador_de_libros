@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Búsqueda de libros</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="title">
+            <h1>Búsqueda de libros</h1>
+            <p>Ingresa el título de alguno de tus libros favoritos</p>
+        </div>
+        <div class="search">
+            <form id="searchForm" class="search-form" role="search">
+                <input class="search-inputs" id="statusInput" type="text" placeholder="Ejemplo: Crimen y castigo"
+                    aria-label="Buscar de libros">
+                <button class="btn-search search-inputs" name="send" type="submit">Buscar</button>
+            </form>
+        </div>
+        <div class="result" id="result"></div>
+    </main>
+    <footer>
+        <a href="https://openlibrary.org/dev/docs/api/search" target="_blank">Open Library Search API</a>
+        <p>Sitio diseñado por: Yésica González para <strong>Jóvenes a programar</strong></p>
+    </footer>
+</body>
+
+</html>
